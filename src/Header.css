@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+}
+
+.header .logo h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header .navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header .navigation ul li {
+    display: inline;
+}
+
+.header .navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.header .navigation ul li a.hover {
+    text-decoration: underline;
+}
