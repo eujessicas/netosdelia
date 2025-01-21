@@ -1,13 +1,13 @@
 // App.js
 import React from "react";
 import './App.css';
-import Header from './Header';  // Certifique-se de que está importando corretamente
-import Topo from './Topo';      // Importando corretamente o componente Topo
+import Header from './Header'; 
+import Topo from './Topo';
 
 function App() {
   return (
     <div>
-      <Header />  {/* Aqui, o componente Header está sendo utilizado */}
+      <Header />  
       <Topo />
       <main>
       
