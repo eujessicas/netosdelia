@@ -1,14 +1,17 @@
-import logo from './logo.svg';
+// App.js
+import React from "react";
 import './App.css';
-import Header from './Header';
+import Header from './Header';  // Certifique-se de que está importando corretamente
+import Topo from './Topo';      // Importando corretamente o componente Topo
 
 function App() {
   return (
     <div>
-      <Header />
-        <main>
-          <h2>Conteudo principal do site</h2>
-        </main>
+      <Header />  {/* Aqui, o componente Header está sendo utilizado */}
+      <Topo />
+      <main>
+      
+      </main>
     </div>
   );
 }

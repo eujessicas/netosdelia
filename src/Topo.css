@@ -1,0 +1,52 @@
+/* Estilos para o componente Topo */
+
+.Topo {
+    background-color: white;  /* Cor de fundo azul suave */
+    color: #173261;               /* Cor do texto em branco */
+    text-align: center;         /* Alinha todo o conteúdo ao centro */
+    padding: 40px 20px;         /* Adiciona espaçamento interno (padding) */
+  }
+  
+  .TOPO h1 {
+    font-size: 2.5rem;          /* Tamanho da fonte maior para o título */
+    font-weight: bold;          /* Deixa o título em negrito */
+    margin-bottom: 10px;        /* Adiciona um espaçamento inferior */
+  }
+  
+  .TOPO h2 {
+    width: 770px;
+    height: 261px;
+    top:272px;
+    left: 151px;
+    font-family: poppins;
+    
+  }
+  
+  .TOPO h3 {
+    width: 736px;
+    height: 60px;
+    top: 550px;
+    left: 153px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #173261
+  }
+  
+  /* Responsividade para telas menores */
+  @media (max-width: 768px) {
+    .TOPO h1 {
+      font-size: 2rem;          /* Reduz o tamanho do título em telas menores */
+    }
+  
+    .TOPO h2 {
+      font-size: 1.5rem;        /* Reduz o tamanho do subtítulo em telas menores */
+    }
+  
+    .TOPO h3 {
+      font-size: 1rem;          /* Ajusta o tamanho da descrição para telas pequenas */
+      padding: 0 20px;          /* Adiciona espaçamento lateral para textos longos */
+    }
+  }
+  
