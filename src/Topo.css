@@ -1,52 +1,77 @@
 /* Estilos para o componente Topo */
-
 .Topo {
-    background-color: white;  /* Cor de fundo azul suave */
-    color: #173261;               /* Cor do texto em branco */
-    text-align: center;         /* Alinha todo o conteúdo ao centro */
-    padding: 40px 20px;         /* Adiciona espaçamento interno (padding) */
-  }
-  
-  .TOPO h1 {
-    font-size: 2.5rem;          /* Tamanho da fonte maior para o título */
-    font-weight: bold;          /* Deixa o título em negrito */
-    margin-bottom: 10px;        /* Adiciona um espaçamento inferior */
-  }
-  
-  .TOPO h2 {
-    width: 770px;
-    height: 261px;
-    top:272px;
-    left: 151px;
-    font-family: poppins;
-    
-  }
-  
-  .TOPO h3 {
-    width: 736px;
-    height: 60px;
-    top: 550px;
-    left: 153px;
-    font-family: Poppins;
+    background-color: white; /* Cor de fundo */
+    color: #173261; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 50px 30px; /* Espaçamento interno */
+}
+
+.TOPO {
+    display: flex; /* Flexbox para alinhar imagem e texto lado a lado */
+    justify-content: space-between; /* Espaça os elementos à esquerda e à direita */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
+}
+
+.TOPO h1 {
+    text-align: left; /* Alinha o título à esquerda */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px; /* Ajustado para um tamanho mais adequado */
+    line-height: 1.2;
+    margin-bottom: 20px;
+    width: 55%; /* O título ocupa 55% da largura */
+}
+
+.TOPO h3 {
+    text-align: left; /* Alinha o subtítulo à esquerda */
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 30px;
-    color: #173261
-  }
+    color: #173261;
+    line-height: 1.5;
+    width: 55%; /* O subtítulo ocupa 55% da largura */
+    margin-top: 20px;
+}
+
+.img {
+    width: 40%; /* A imagem ocupa 20% da largura */
+    max-width: 500px; /* Limita o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 20px; /* Espaçamento entre o texto e a imagem */
+}
+
+.img img {
+    width: 100%; /* A imagem ocupa 100% da largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Garante que a imagem seja cortada corretamente */
+    border-radius: 10px; /* Borda arredondada na imagem */
   
-  /* Responsividade para telas menores */
-  @media (max-width: 768px) {
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .TOPO {
+        flex-direction: column; /* Empilha os elementos em telas pequenas */
+        text-align: center; /* Centraliza o conteúdo */
+    }
+
     .TOPO h1 {
-      font-size: 2rem;          /* Reduz o tamanho do título em telas menores */
+        font-size: 2rem; /* Reduz o tamanho do título em telas menores */
+        width: 100%; /* O título ocupa 100% da largura */
     }
-  
-    .TOPO h2 {
-      font-size: 1.5rem;        /* Reduz o tamanho do subtítulo em telas menores */
-    }
-  
+
     .TOPO h3 {
-      font-size: 1rem;          /* Ajusta o tamanho da descrição para telas pequenas */
-      padding: 0 20px;          /* Adiciona espaçamento lateral para textos longos */
+        font-size: 1rem; /* Ajusta o tamanho da descrição para telas pequenas */
+        width: 100%; /* A descrição ocupa 100% da largura */
     }
-  }
-  
+
+    .img {
+        width: 60%; /* Aumenta a largura da imagem para 60% em telas pequenas */
+        margin-top: 20px;
+    }
+
+    .img img {
+        width: 100%; /* Garante que a imagem ocupe 100% do espaço disponível */
+    }
+}
