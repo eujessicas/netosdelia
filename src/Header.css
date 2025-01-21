@@ -11,13 +11,24 @@
     background: transparent;
     border: none;
     cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+.header .logo button:hover {
+    transform: scale(1.1); 
 }
 
 .header .logo img {
     max-width: 100%;  
     height: auto;     
-    width: 150px;     
+    width: 150px;
+    transition: transform 0.3s ease;
 }
+
+.header .logo button:hover img {
+    transform: scale(1.1); 
+}
+
 
 .header .navigation ul {
     list-style: none;
@@ -33,9 +44,20 @@
 .header .navigation ul li a {
     color: #173261;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight:400;
+    padding: 8px 16px;
+    transition: all 0.8s ease;
+    border-radius: 5px;
 }
 
 .header .navigation ul li a:hover {
-    text-decoration: underline;
+    color: #1252a3; 
+    transform: scale(1.05);
+    box-shadow: 0 2px 6px rgba(0, 82, 204, 0.5);
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 350; 
+    transition: all 0.8s ease;
 }

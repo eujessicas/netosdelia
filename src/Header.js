@@ -1,13 +1,13 @@
 import React from "react";
 import './Header.css';
-import logoImg from './imagens/logo.png';  // A importação da imagem
+import logoImg from './imagens/logo.png'; 
 
 const Header = () => {
     return (
         <header className="header">
             <div className="logo">
                 <button>
-                    <img src={logoImg} alt="Logo" />  {/* Usando logoImg importado */}
+                    <img src={logoImg} alt="Logo" />  
                 </button>
             </div>
             <nav className="navigation">
