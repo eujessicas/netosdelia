@@ -1,26 +1,26 @@
-/* Estilos para o componente Topo */
+
 .Topo {
-    background-color: white; /* Cor de fundo */
-    color: #173261; /* Cor do texto */
-    text-align: center; /* Centraliza o texto */
-    padding: 50px 30px; /* Espaçamento interno */
+    background-color: white; 
+    color: #173261; 
+    text-align: center; 
+    padding: 50px 30px; 
 }
 
 .TOPO {
-    display: flex; /* Flexbox para alinhar imagem e texto lado a lado */
-    justify-content: space-between; /* Espaça os elementos à esquerda e à direita */
-    align-items: center; /* Alinha os itens verticalmente no centro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
     flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
 }
 
 .TOPO h1 {
-    text-align: left; /* Alinha o título à esquerda */
+    text-align: left; 
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 48px; /* Ajustado para um tamanho mais adequado */
-    line-height: 1.2;
+    font-size: 58px;
+    line-height: 87px;
     margin-bottom: 20px;
-    width: 55%; /* O título ocupa 55% da largura */
+    width: 770px; 
 }
 
 .TOPO h3 {
