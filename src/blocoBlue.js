@@ -14,10 +14,11 @@ const BlocoBlue = () => {
            mas não sabem como utilizá-los plenamente e sofrem com a falta de suporte técnico próximo.
         </h2>
       </div>
-      <div className="blocoimagens">      
-        <img src={objetoImg1} alt="print1" /> 
-        <img src={objetoImg2} alt="print2" /> 
+      <div class="blocoimagens">
+        <img src={objetoImg1} alt="Imagem 1" />
+        <img src={objetoImg2} alt="Imagem 2" />
       </div>
+
     </div>
   );
 };
