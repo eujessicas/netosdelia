@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -31,6 +33,7 @@
 
 
 .header .navigation ul {
+    font-family: 'poppins', sans-serif;
     list-style: none;
     padding: 0;
     display: flex;
@@ -51,11 +54,8 @@
     border-radius: 5px;
 }
 
-.header .navigation ul li a:hover {
-    color: #1252a3; 
-    transform: scale(1.05);
-    box-shadow: 0 2px 6px rgba(0, 82, 204, 0.5);
-    background-color: #f0f8ff;
+.header .navigation ul li a:hover {   
+    transform: scale(1.05);   
     border-radius: 10px;
     font-size: 1.5rem;
     font-weight: 350; 
