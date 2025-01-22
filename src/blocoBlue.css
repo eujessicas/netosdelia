@@ -48,35 +48,8 @@
     line-height: 24px;
   }
   
-  .blocoimagens {
-    height: 100%; 
-    width: 583px;
-    height: 112px;
-    position: absolute;
-    top: 1078px;
-    left: 725px;
-    border-radius: 4px;
-    border: 8px;
-    background-color: #ebf1fd;
-     display: flex;
-    flex-direction: column;
-    justify-content: flex-start; 
-    gap: 10px; 
-    padding: 10px; 
-}
-
-.blocoimagens img {
-    width: 80%;
-    height: auto;
-    border-radius: 4px;
-}
-
-
-  .blocoimagens2 {
-    width: 631px; 
-    height: 78px;
-    top: 1225px;
-    left: 706px;
-    radius: 4px;
-    Border:8px;
+  .blocoBlue img {
+    max-width: 45%; /* Limita a largura das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 20px; /* Adiciona espaçamento entre as imagens e o texto */
   }

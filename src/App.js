@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Header'; 
 import Topo from './Topo';
 import BlocoBlue from "./blocoBlue";
+import NossoProjeto from "./nossoProjeto";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />  
       <Topo />
       <BlocoBlue />
+      <NossoProjeto />
       <main>
       
       </main>
