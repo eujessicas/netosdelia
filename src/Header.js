@@ -6,14 +6,14 @@ const Header = () => {
     return (
         <header className="header">
             <div className="logo">
-                <button>
-                    <img src={logoImg} alt="Logo" />  
+                <button onClick={() => window.location.href = './Header.js'}>
+                    <img src={logoImg} alt="Logo" />
                 </button>
             </div>
             <nav className="navigation">
                 <ul>
                     <li><a href="#home">Nosso projeto</a></li>
-                    <li><a href="#about">Onde estamos</a></li>
+                    <li><a href="https://www.google.com.br/maps/preview">Onde estamos</a></li>
                     <li><a href="#services">Voluntariado</a></li>
                     <li><a href="#contact">Seja um apoiador</a></li>
                 </ul>

@@ -19,7 +19,9 @@ const Topo = () => {
             </div>
        
             <div className="Button">
+                <a href = "https://www.google.com.br/maps/preview">
                 <button>Encontre um projeto perto de você</button>
+                </a>
             </div>
         </header>
     );
