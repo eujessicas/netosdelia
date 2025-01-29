@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nossoProjeto {
+    display: flex;
+    flex-wrap: wrap; /* Allows content to wrap for better responsiveness */
+    background-color: #ffffff;
+    width: 100%; /* Make it responsive */
+    height: auto; /* Height adjusts based on content */
+    padding: 25px 390px; /* Top and bottom padding are 25px, left and right are 390px */
+    justify-content: space-between; /* Corrected to justify-content */
+    align-items: center; /* Align items vertically */
+}
+
+.nossoProjeto h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0 auto; /* Centers h1 horizontally */
+    color: #1245ee;
+}
+
+.nossoProjeto h2 {
+    width: 750px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #173261;
+    margin: 20px auto; /* Centers h2 horizontally and adds margin for spacing */
+}
+
+.nossoProjeto img {
+    width: auto;
+    max-width: 100%; /* Make images responsive */
+}
+
+.nossoProjeto .logo {
+    max-width: 373px; /* Max width for the logo */
+    height: auto;
+}
+
+.nossoProjeto .idosos {
+    max-width: 603px; /* Max width for the idosos image */
+    height: auto;
+}

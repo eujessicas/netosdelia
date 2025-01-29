@@ -1,20 +1,19 @@
-
 import React from "react";
 import './App.css';
 import Header from './Header'; 
 import Topo from './Topo';
-import BlocoBlue from "./blocoBlue";
-import NossoProjeto from "./nossoProjeto";
+import BlocoBlue from "./BlocoBlue";
+import NossoProjeto from "./NossoProjeto";
+
 
 function App() {
   return (
     <div>
       <Header />  
       <Topo />
-      <BlocoBlue />
-      <NossoProjeto />
       <main>
-      
+        <BlocoBlue />
+        <NossoProjeto />
       </main>
     </div>
   );
