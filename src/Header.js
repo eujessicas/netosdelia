@@ -12,7 +12,7 @@ const Header = () => {
             </div>
             <nav className="navigation">
                 <ul>
-                    <li><a href="./nossoProjeto">Nosso projeto</a></li>
+                    <li><a href="/nossoProjeto">Nosso projeto</a></li>
                     <li><a href="https://www.google.com.br/maps/preview">Onde estamos</a></li>
                     <li><a href="#services">Voluntariado</a></li>
                     <li><a href="#contact">Seja um apoiador</a></li>
